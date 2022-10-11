@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple');
+@import url('https://fonts.googleapis.com/css?family=Alkalami');
+
 *{
     box-sizing: border-box;
-    font-family: 'Work Sans';
-    margin: 0;
-    padding: 0;
+    font-family: 'averialibre', "serif";
+    font-size: 48;
+
+    
 }
 html{
     /* me permite deslizar cuando hago clic en los links del menu */
@@ -11,7 +15,7 @@ html{
 }
 /* MENU */
 .contenedor-header{
-    background: #1e2326;
+    background: #dfadd8;
     position: fixed;
     width: 100%;
     top: 0;
@@ -27,9 +31,9 @@ html{
     padding: 15px 20px;
 }
 .contenedor-header header .logo a{
-    font-family: 'Righteous';
+    font-family: 'Alkalami';
     font-size: 36px;
-    color: #1CB698;
+    color: #a17091da;
     text-decoration: none;
 }
 .contenedor-header header ul{
@@ -45,10 +49,10 @@ html{
     text-decoration: none;
 }
 .contenedor-header header nav ul li a:hover{
-    color: #1CB698;
+    color: #8b195c;
 }
 .nav-responsive{
-    background-color: #1CB698;
+    background-color: #9b1457;
     color:#fff;
     padding: 5px 10px;
     border-radius: 5px;
@@ -57,7 +61,7 @@ html{
 }
 /* SECCION I N I C I O */
 .inicio{
-    background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
+    background: linear-gradient(to top, rgba(70, 82, 88, 0.8), rgba(30,35,38,1)),
     url(img/fondo.jpg);
     background-size: cover;
     height: 100vh;
@@ -75,7 +79,7 @@ html{
 }
 .inicio .contenido-banner img{
     margin-top: 40px;
-    border: 10px solid #1CB698;
+    border: 10px solid #c05377;
     display: block;
     width: 80%;
     margin: auto;
