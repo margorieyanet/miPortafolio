@@ -5,7 +5,7 @@
 *{
     box-sizing: border-box;
     font-family: 'averialibre', "serif";
-    font-size: 48;
+    font-size: 20;
 
     
 }
@@ -32,7 +32,7 @@ html{
 }
 .contenedor-header header .logo a{
     font-family: 'Alkalami';
-    font-size: 36px;
+    font-size:36px;
     color: #a17091da;
     text-decoration: none;
 }
@@ -72,7 +72,7 @@ html{
 .inicio .contenido-banner{
     padding: 20px;
     background-color: #1e2326;
-    max-width: 350px;
+    max-width: 400px;
     margin: auto;
     text-align: center;
     border-radius: 40px;
@@ -81,39 +81,39 @@ html{
     margin-top: 40px;
     border: 10px solid #c05377;
     display: block;
-    width: 80%;
+    width: 100%;
     margin: auto;
     border-radius: 100%;
 }
 .inicio .contenido-banner h1{
     margin-top: 40px;
-    font-size: 42px;
+    font-size: 30px;
     font-family: 'Righteous';
 }
 .inicio .contenido-banner h2{
-    font-size: 15px;
+    font-size: 20px;
     font-weight: normal;
 }
 .inicio .contenido-banner .redes a{
-    color: #fff;
+    color: rgb(236, 220, 134);
     display: inline-block;
     text-decoration: none;
-    border: 1px solid #fff;
+    border: 1px solid rgb(197, 44, 44);
     border-radius: 100%;
     width: 42px;
     height: 42px;
     line-height: 42px;
-    margin: 40px 5px;
+    margin: px 5px;
     font-size: 20px;
-    transition: .3s;
+    transition: 3s;
 }
 .inicio .contenido-banner .redes a:hover{
     background-color: #1CB698;
 }
 .sobremi{
-    background-color: #1e2326;
-    color: #fff;
-    padding: 50px 20px;
+    background-color: #d8e1e6;
+    color: rgb(146, 10, 67);
+    padding: 80px 50px;
 }
 .sobremi .contenido-seccion{
     max-width: 1100px;
@@ -132,7 +132,7 @@ html{
     margin-bottom: 20px;
 }
 .sobremi .contenido-seccion p span{
-    color: #1CB698;
+    color: #0d9176;
     font-weight: bold;
 }
 .sobremi .fila{
@@ -155,11 +155,11 @@ html{
 }
 .sobremi .fila .col ul li strong{
     display: inline-block;
-    color: #1CB698;
+    color: #0a6d7a;
     width: 130px;
 }
 .sobremi .fila .col ul li span{
-    background-color: #1CB698;
+    background-color: #14d8b1;
     padding: 3px;
     font-weight: bold;
     border-radius: 5px;
@@ -171,7 +171,7 @@ html{
 .sobremi .fila .col .contenedor-intereses .interes{
     width: 100px;
     height: 100px;
-    background-color: #252A2E;
+    background-color: #abd2f1;
     border-radius: 10px;
     margin: 0 15px 15px 0;
     display: flex;
@@ -189,13 +189,13 @@ html{
 .sobremi button{
     cursor: pointer;
     background-color: transparent;
-    border: 2px solid #fff;
+    border: 2px solid rgb(169, 81, 81);
     width: fit-content;
     display: block;
     margin: 20px auto;
     padding: 10px 22px;
     font-size: 16px;
-    color: #fff;
+    color: rgb(114, 5, 5);
     position: relative;
     z-index: 10;
 }
@@ -205,7 +205,7 @@ html{
     left: 0;
     width: 0;
     height: 100%;
-    background-color: #1CB698;
+    background-color: #405811;
     z-index: -1;
     transition: 1s;
 }
@@ -214,7 +214,7 @@ html{
 }
 /* SECCION S K I L L S */
 .skills{
-    background-color: #252A2E;
+    background-color: #4a343b;
     color: #fff;
     padding: 50px 20px;
 }
@@ -254,7 +254,7 @@ html{
     margin-bottom: 30px;
 }
 .skills .skill .progreso{
-    background-color: #1CB698;
+    background-color: #dde16c;
     position: absolute;
     top: 0;
     left: 0;
@@ -264,7 +264,7 @@ html{
     position: absolute;
     height: 40px;
     width: 40px;
-    background-color: #1CB698;
+    background-color: #cc9619;
     border-radius: 50px;
     line-height: 40px;
     text-align: center;
@@ -364,16 +364,16 @@ html{
 }
 /* SECCION CURRICULUM */
 .curriculum{
-    background-color: #1e2326;
+    background-color: #8a4463;
     color: #fff;
     padding: 50px 20px;
 }
 .curriculum .contenido-seccion{
-    max-width: 1100px;
+    max-width: 1500px;
     margin: auto;
 }
 .curriculum h2{
-    font-size: 48px;
+    font-size: 70px;
     font-family: 'Righteous';
     text-align: center;
     padding: 20px 0;
@@ -384,7 +384,7 @@ html{
     justify-content: space-between;
 }
 .curriculum .fila .col{
-    width: 49%;
+    width: 80%;
     padding: 0 20px;
 }
 .curriculum .fila .col h3{
@@ -409,7 +409,7 @@ html{
     margin-bottom: 10px;
 }
 .curriculum .fila .item .casa{
-    color: #1CB698;
+    color: #41f4d0;
     font-size: 22px;
     font-weight: bold;
     display: block;
@@ -471,7 +471,7 @@ html{
 /* SECCION PORTFOLIO */
 .portfolio{
     background-color: #252A2E;
-    color: #fff;
+    color: rgb(223, 151, 151);
     padding: 50px 20px;
 }
 .portfolio .contenido-seccion{
@@ -506,12 +506,12 @@ html{
     width: 100%;
     height: 100%;
     text-align: center;
-    background: linear-gradient(rgba(28,182,152,.8), rgba(28,182,152,.8));
+    background: linear-gradient(rgba(195, 53, 79, 0.8), rgba(28,182,152,.8));
     display: flex;
     flex-direction: column;
     justify-content: center;
     transition: 1s;
-    font-size: 18px;
+    font-size: 50px;
     letter-spacing: 3px;
     opacity: 0;
 }
@@ -533,7 +533,7 @@ html{
     padding: 50px 0;
 }
 .contacto .contenido-seccion{
-    max-width: 1100px;
+    max-width: 1500px;
     margin: auto;
 }
 .contacto h2{
@@ -579,7 +579,7 @@ html{
     left: 0;
     width: 0;
     height: 100%;
-    background-color: #1CB698;
+    background-color: #f1afe0;
     z-index: -1;
     transition: 1s;
 }
@@ -605,7 +605,7 @@ html{
     margin-bottom: 20px;
 }
 .contacto .col .info ul li i{
-    color: #1CB698;
+    color: #a52e81;
     display: inline-block;
     margin-right: 20px;
 }
@@ -637,7 +637,7 @@ footer .arriba{
     display: block;
     width: 50px;
     height: 50px;
-    background-color: #1CB698;
+    background-color: #b965ab;
     color: #fff;
     position: absolute;
     left: 50%;
@@ -667,7 +667,7 @@ footer .arriba{
         display: block !important;
     }
     nav.responsive ul li{
-        border-bottom: 1px solid #fff;
+        border-bottom: 1px solid rgb(224, 160, 194);
         padding: 10px 0;
     }
 }
