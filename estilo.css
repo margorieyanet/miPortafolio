@@ -15,7 +15,7 @@ html{
 }
 /* MENU */
 .contenedor-header{
-    background: #dfadd8;
+    background: #010001;
     position: fixed;
     width: 100%;
     top: 0;
@@ -23,17 +23,17 @@ html{
     z-index: 99;
 }
 .contenedor-header header{
-    max-width: 1100px;
+    max-width: 1050px;
     margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 20px;
+    padding: 15px 15px;
 }
 .contenedor-header header .logo a{
     font-family: 'Alkalami';
-    font-size:36px;
-    color: #a17091da;
+    font-size:40px;
+    color: #f5ebf2da;
     text-decoration: none;
 }
 .contenedor-header header ul{
@@ -43,8 +43,8 @@ html{
 .contenedor-header header nav ul li a{
     text-align: none;
     color: #fff;
-    margin: 0 15px;
-    padding: 3px;
+    margin: 1px;
+    padding: 12px;
     transition: .5s;
     text-decoration: none;
 }
@@ -61,10 +61,10 @@ html{
 }
 /* SECCION I N I C I O */
 .inicio{
-    background: linear-gradient(to top, rgba(70, 82, 88, 0.8), rgba(30,35,38,1)),
-    url(img/fondo.jpg);
+    background: linear-gradient(to top, rgba(41, 44, 46, 0.8), rgba(30,35,38,1)),
+    url(onpe1234.jpeg);
     background-size: cover;
-    height: 100vh;
+    height: 120vh;
     color: #fff;
     display: flex;
     align-items: center;
@@ -72,13 +72,13 @@ html{
 .inicio .contenido-banner{
     padding: 20px;
     background-color: #1e2326;
-    max-width: 400px;
+    max-width: 370px;
     margin: auto;
     text-align: center;
-    border-radius: 40px;
+    border-radius: 50px;
 }
 .inicio .contenido-banner img{
-    margin-top: 40px;
+    margin-top: 80px;
     border: 10px solid #c05377;
     display: block;
     width: 100%;
@@ -205,7 +205,7 @@ html{
     left: 0;
     width: 0;
     height: 100%;
-    background-color: #405811;
+    background-color: #f582cb;
     z-index: -1;
     transition: 1s;
 }
@@ -369,14 +369,14 @@ html{
     padding: 50px 20px;
 }
 .curriculum .contenido-seccion{
-    max-width: 1500px;
+    max-width: 850px;
     margin: auto;
 }
 .curriculum h2{
     font-size: 70px;
     font-family: 'Righteous';
     text-align: center;
-    padding: 20px 0;
+    padding: 5px 0;
 
 }
 .curriculum .fila{
@@ -385,10 +385,10 @@ html{
 }
 .curriculum .fila .col{
     width: 80%;
-    padding: 0 20px;
+    padding: 20px;
 }
 .curriculum .fila .col h3{
-    font-size: 28px;
+    font-size: 20px;
     font-family: 'Righteous';
     margin-bottom: 25px;
 }
